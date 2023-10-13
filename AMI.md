@@ -16,7 +16,7 @@ And click create image:
 
 You've now made your image! To find it, just head to the AMI section in the dashboard:
  
-<img src="Capture4.PNG" alt="drawing" width="640"/>
+<img src="Capture4.PNG" alt="drawing" width="150"/>
 
 ## Using your AMI 
 
