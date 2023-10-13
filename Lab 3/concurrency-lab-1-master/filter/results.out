@@ -1,0 +1,30 @@
+goos: linux
+goarch: amd64
+pkg: uk.ac.bris.cs/concurrency1/filter
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+BenchmarkFilter/1_workers-8         	       1	 263316626 ns/op
+BenchmarkFilter/1_workers-8         	       1	 337452838 ns/op
+BenchmarkFilter/1_workers-8         	       1	 276789861 ns/op
+BenchmarkFilter/1_workers-8         	       1	 261632399 ns/op
+BenchmarkFilter/1_workers-8         	       1	 266693157 ns/op
+BenchmarkFilter/2_workers-8         	       1	 168726103 ns/op
+BenchmarkFilter/2_workers-8         	       1	 179413333 ns/op
+BenchmarkFilter/2_workers-8         	       1	 169749920 ns/op
+BenchmarkFilter/2_workers-8         	       1	 241960603 ns/op
+BenchmarkFilter/2_workers-8         	       1	 186862389 ns/op
+BenchmarkFilter/4_workers-8         	       1	 127402986 ns/op
+BenchmarkFilter/4_workers-8         	       1	 140342858 ns/op
+BenchmarkFilter/4_workers-8         	       1	 126811102 ns/op
+BenchmarkFilter/4_workers-8         	       1	 131856418 ns/op
+BenchmarkFilter/4_workers-8         	       1	 179400622 ns/op
+BenchmarkFilter/8_workers-8         	       1	 124024645 ns/op
+BenchmarkFilter/8_workers-8         	       1	 125490092 ns/op
+BenchmarkFilter/8_workers-8         	       1	 103998863 ns/op
+BenchmarkFilter/8_workers-8         	       1	 109416534 ns/op
+BenchmarkFilter/8_workers-8         	       1	 106586148 ns/op
+BenchmarkFilter/16_workers-8        	       1	 106061663 ns/op
+BenchmarkFilter/16_workers-8        	       1	  99345217 ns/op
+BenchmarkFilter/16_workers-8        	       1	  98970172 ns/op
+BenchmarkFilter/16_workers-8        	       1	 152535998 ns/op
+BenchmarkFilter/16_workers-8        	       1	 116794239 ns/op
+ok  	uk.ac.bris.cs/concurrency1/filter	8.343s

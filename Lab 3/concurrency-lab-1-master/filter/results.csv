@@ -1,0 +1,12 @@
+goos: linux,,
+goarch: amd64,,
+pkg: uk.ac.bris.cs/concurrency1/filter,,
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz,,
+,results.out,
+,sec/op,CI
+Filter/1_workers-8,0.273307706,0%
+Filter/2_workers-8,0.177125249,0%
+Filter/4_workers-8,0.138302946,9%
+Filter/8_workers-8,0.108332911,22%
+Filter/16_workers-8,0.105341807,28%
+geomean,0.150184458,
